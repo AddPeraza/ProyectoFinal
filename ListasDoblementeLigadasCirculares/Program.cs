@@ -11,9 +11,9 @@ namespace ListasDoblementeLigadasCirculares
         static void Main(string[] args)
         {
             Lista lista = new Lista();
-            lista.AgregarFinal("Elemento 1");
-            lista.AgregarFinal("Elemento 2");
-            lista.AgregarFinal("Elemento 3");
+            lista.AgregarFinal("Nodo 1");
+            lista.AgregarFinal("Nodo 2");
+            lista.AgregarFinal("Nodo 3");
 
             
             Console.WriteLine(lista.Recorrer());

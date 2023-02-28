@@ -15,7 +15,7 @@ namespace ListasCirculares
         {
             nodoInicial = new Nodo();
             nodoInicial.Siguiente = nodoInicial;
-
+            nodoInicial.Anterior = nodoInicial;
 
         }
         public bool ValidaVacio()
