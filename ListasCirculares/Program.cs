@@ -43,6 +43,8 @@ namespace ListasCirculares
             lista.VaciarLista();
             Console.WriteLine("Contenido de la lista después de vaciarla:");
             Console.WriteLine(lista.Recorrer());
+
+            Console.ReadKey();
         }
     }
 }
