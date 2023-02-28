@@ -14,6 +14,8 @@ namespace ListasCirculares
         public Lista()
         {
             nodoInicial = new Nodo(siguiente: nodoInicial);
+            
+            
         }
         public bool ValidaVacio()
         {
